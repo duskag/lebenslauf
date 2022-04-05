@@ -71,7 +71,7 @@ nav{
     
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:900px){
     body{
         overflow-x: hidden;
     }
@@ -421,7 +421,7 @@ nav{
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 900px){
     .about .box{
         flex-direction: column;
     }
