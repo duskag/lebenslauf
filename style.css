@@ -410,10 +410,7 @@ nav{
     }
 
     
-    .skills .box{
-        grid-template-columns: repeat(1,1fr);
-    }
-
+  
 
 .nav-active{
     transform: translateX(0%);
