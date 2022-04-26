@@ -369,7 +369,7 @@ nav{
     }
 }
 
-@media (max-width: 620px){
+@media (max-width: 360px){
     body{
         overflow-x: hidden;
         
