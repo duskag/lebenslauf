@@ -432,6 +432,69 @@ nav{
         grid-template-columns: repeat(1,1fr);
     }
 }
+@media (max-width: 360px){
+    body{
+        overflow-x: hidden;
+        
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 25vh;
+        top: 8vh;
+        
+        background-image: rgb(129, 168, 201);
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        padding-top: 20px;
+        padding-bottom: 40px;
+
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+        
+       
+    }
+    .about .box{
+        flex-direction: column;
+    }
+    .about .box .year{
+        min-width: 150px;
+        margin-top: 5px;
+    }
+
+    
+  
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+
+
+  
+    .about .box{
+        flex-direction: column;
+    }
+    .about .box .year{
+        min-width: 150px;
+        margin-top: 5px;
+    }
+
+    
+    .skills .box{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 footer{
     color: rgb(92, 130, 161);
