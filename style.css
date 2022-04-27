@@ -462,6 +462,9 @@ nav{
     .burger{
         display: block;
         
+     .container{
+        width: 300px;
+    }   
        
     }
     .about .box{
